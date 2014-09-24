@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <style>
+            html, body {
+                min-width: 400px;
+                max-height:500px;
+                min-height:500px;
+                overflow-x: hidden;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+            }
+            input, textarea {
+                width: 420px;
+            }
+            input#save {
+                font-weight: bold; width: auto;
+            }
+            #main{
+              max-width: 390px;
+              height: 150px;
+            }
+            #main_image{
+              max-width: 390px;
+              height: 150px;
+            }
+            ul.inline{
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              overflow: scroll;
+              max-height: 65px;
+            }
+            ul.inline li{
+              display: inline-block;
+              padding: 2px;
+              margin: 0;
+              vertical-align: top;
+            }
+            .hide{
+              display:none;
+            }
+
+        </style>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery.cookie.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+
+    </head>
+    <body>
+      <div id="wrapper">
+
+        <div id="login" class="hide">
+          <h1>Please Sign In</h1>
+        </div>
+        <div id="loggedin" class="hide">
+          <form id="addbookmark">
+
+              <div id="main"><img src='' id="main_image"></div>
+              <ul id="secondary_images" class="inline"></ul>
+
+              <p><label for="groups">Group</label><br />
+              <select id="groups"></select>
+
+              <hr />
+              <p><label for="groups">New Group</label><br />
+              <input type="text" id="newGroup" name="newGroup" size="50" value="" />
+              <input type="radio" name="newGroupPrivate" class="newGroupLocked" value="true">Private</p>
+              <hr />
+
+
+
+              <p><label for="sendto">Send To</label><br />
+              <input type="text" id="sendto" name="sendto" value="" placeholder="seperate emails by commas" /></p>
+
+              <p><label for="title">Title</label><br />
+              <input type="text" id="title" name="title" size="50" value="" /></p>
+
+              <p><label for="url">Url</label><br />
+              <input type="text" id="url" name="url" size="50" value="" /></p>
+
+              <p><label for="note">Note</label><br />
+              <textarea id="note" name="note" rows="3" cols="35"></textarea></p>
+
+              <p><label for="tags">Tags</label><br />
+              <input type="text" id="tags" name="tags" size="50" value="" /></p>
+
+              <p>
+                  <input id="save" type="submit" value="Share/Save Bookmark" />
+                  <input id="save" type="submit" value="Share/Save Quote" />
+                  <input id="save" type="submit" value="Share/Save Image" />
+                  <span id="status-display"></span>
+              </p>
+
+          </form>
+        </div>
+      </div>
+    </body>
+</html>

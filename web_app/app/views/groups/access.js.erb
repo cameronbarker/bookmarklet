@@ -1,0 +1,7 @@
+<% if @access %>
+  $('#lock_box').hide();
+  $("#bookmarks").html("<%= escape_javascript(render 'bookmarks')%>")
+<% else %>
+  $('#lock_box h1').html("<h1>Wrong Pin or Friend Revoked</h1>");
+  $('#status').html("try again...");
+<% end %>

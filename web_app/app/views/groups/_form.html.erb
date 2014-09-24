@@ -1,0 +1,10 @@
+<%= semantic_form_for @group do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :title %>
+    <%= f.input :locked, as: :radio %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>

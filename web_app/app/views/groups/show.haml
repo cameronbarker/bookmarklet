@@ -1,0 +1,53 @@
+= link_to 'Back', groups_path
+
+%h2 Header:
+%ul
+  %li
+    %strong board owner email adress:
+    = @group.user.email
+  %li
+    %strong boards title:
+    = @group.title
+  %li
+    %strong show if board is locked:
+    = @group.locked
+  %li
+    %strong show board count:
+    7
+  %li
+    %strong show number of urls shared
+    35
+%h2 Bookmark:
+#bookmarks
+  - if(@locked)
+    #lock_box
+      %h1 LOCKED!
+      %span Please enter pin or contact user to get access
+      %br
+      %span#status waiting for input...
+      %br
+      %br
+      %input#pincode{type: "text", placeholder: "4 Pin", maxlength: 4}
+
+    :javascript
+      $('#pincode').on('input', function() {
+          if($(this).val().length == 4){
+              $('#status').html("validating access...");
+              $.ajax({
+                      url: "/group/1/access",
+                      cache: false,
+                      type: 'POST',
+                      data: {pin: $(this).val()},
+                      success: function(html){
+
+                      },
+                      error: function(){
+                          alert("show form with a pithy header");
+                      }
+                    });
+          }
+      });
+
+
+  - else
+    = render "bookmarks"
