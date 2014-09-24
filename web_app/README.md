@@ -1,22 +1,4 @@
-# Bookmarklet
-This project is a means to simplify storing and sharing links with my wife and friends.
-Think Pinterest meets Evernote meets something else that already exists =).
-
-##User Case
-#####Primary Use Cases:  
- 1. Cameron wants to save all the links he's collecting
- for a project he is working on.
- 2. Hayley wants to share a link with Cameron.
-
-#####Secondary User Cases:
- 1. Fohrcard wants a place where all employees can add competitor sites they see.
- 2. Alex wants to search for cool sites for "Furniture Design"
-
-##Language:  
--Bookmark: A collection of URL, Group, Users, Notes, etc  
--Group: A collection of urls under one folder system  
--Url: A url that links to a website  
--User: A person who has an account with link app to store/share links  
+# Bookmarklet-Web App
 
 ##Site Map V1:
 
@@ -52,3 +34,15 @@ Think Pinterest meets Evernote meets something else that already exists =).
 ##### Notes: User Specific Notes about url
 
 ##### Shares: Used to track when User shares with another User
+
+## Features  
+### Authentication
+The backbone of authentication is through the gem [Devise](https://github.com/plataformatec/devise).
+
+####API sessions create
+The API uses a custom session method for creating found in api::v1::sessions#create
+When the user passes in a successful username/email and password they recieve their
+auth token and uuid.
+
+####API session validate
+The API use tokens to authenticate and uses uuid to find the user.
