@@ -2,7 +2,7 @@ module Api
   module V1
     class BookmarksController < ApplicationController
       protect_from_forgery except: :create
-      before_filter :authenticate
+      # before_filter :authenticate
       # before_filter :current_user
       respond_to :json
 
