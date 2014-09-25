@@ -24,9 +24,9 @@ Think Pinterest meets Evernote meets something else that already exists =).
 
 
 ##User Questions
-Goals:
+Goals:  
 Find out if people are sharing links with friends and if they are receiving links from friends?  
 Do they share a lot in a day?  
 How do they share?  
 
-<iframe width="100%" height="400" src="https://camerobarker.typeform.com/report/wZMt9P/SJdO" frameborder="0" allowfullscreen></iframe>
+See the results [here](https://camerobarker.typeform.com/report/wZMt9P/SJdO).
