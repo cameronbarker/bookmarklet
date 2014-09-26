@@ -23,20 +23,20 @@ Think Pinterest meets Evernote meets something else that already exists =).
 -User: A person who has an account with link app to store/share links  
 
 ##Competitor Analysis
-[Dart](http://tossdarts.com/)  Share and comment on links with in the dart community
-[Potluck](https://www.potluck.it/)  Out of business
-[Kippt](https://kippt.com/)  Collect and organize your boards, not meant for sharing
-[Point](http://www.getpoint.co/)  Real time communication around links and pages, collaboration on pages
+[Dart](http://tossdarts.com/)  Share and comment on links with in the dart community  
+[Potluck](https://www.potluck.it/)  Out of business  
+[Kippt](https://kippt.com/)  Collect and organize your boards, not meant for sharing  
+[Point](http://www.getpoint.co/)  Real time communication around links and pages, collaboration on pages  
 
 ####Thoughts:  
 -The majority of the sharing platforms makes the sharee and sharer install the application.  
 -Dart allows users to share with their friends through a chrome extension and an app.  They allow
-users to comment on a share.  It takes the experience of facebook and puts it into a chrome extension and app.
+users to comment on a share.  It takes the experience of facebook and puts it into a chrome extension and app.  
 -Kippt's organization by groups is interesting, you can put links into groups and
 add collaborators to that list for others to add to. They alos make it so you can leave
-a note on the board.  This is perfect for primary use case 2.
+a note on the board.  This is perfect for primary use case 2.  
 -Point's real time collaboration tool is geared towards feed back and teams. Perfect for
-primary use case 1 if Hayley and I both have the app.
+primary use case 1 if Hayley and I both have the app.  
 
 ####Conclusion
 I think primary use case 3 still havent been fully covered.  The links we are sharing
