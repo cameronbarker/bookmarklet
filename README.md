@@ -23,10 +23,27 @@ Think Pinterest meets Evernote meets something else that already exists =).
 -User: A person who has an account with link app to store/share links  
 
 
-##User Questions
-Goals:  
+##User Questions  
+####Goals:  
 Find out if people are sharing links with friends and if they are receiving links from friends?  
 Do they share a lot in a day?  
 How do they share?  
+Would they like to receive 10 links in realtime, hourly, or at the end of the day?
 
-See the results [here](https://camerobarker.typeform.com/report/wZMt9P/SJdO).
+####Survey  
+See the questions [here](https://camerobarker.typeform.com/to/wZMt9P)  
+See the results [here](https://camerobarker.typeform.com/report/wZMt9P/SJdO).  
+
+####Findings:  
+Find out if people are sharing links with friends and if they are receiving links from friends?
+-People are sharing at least weekly and the majority is sharing links and receiving links daily.
+
+Do they share a lot in a day?  
+-People find more than 1 link a day to share with their friends but are pretty
+split between how many articles their friends share with them.
+
+How do they share?  
+-Social media seems to be the main place. I'd hypothesize that this is due to "discovery honor" concept.
+
+Would they like to receive 10 links in realtime, hourly, or at the end of the day?  
+-The majority would like to receive one email at the end of the day.
