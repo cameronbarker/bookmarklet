@@ -22,6 +22,12 @@ Think Pinterest meets Evernote meets something else that already exists =).
 -Url: A url that links to a website  
 -User: A person who has an account with link app to store/share links  
 
+##Competitor Analysis
+[Dart](http://tossdarts.com/)
+[Potluck](https://www.potluck.it/)
+[Kippt](https://kippt.com/)
+[Point](http://www.getpoint.co/)
+[Delicious](https://delicious.com/)
 
 ##User Questions  
 ####Goals:  
