@@ -3,6 +3,8 @@ Bookmarklet
 This project is a means to simplify storing and sharing links with my wife and friends.
 Think Pinterest meets Evernote meets something else that already exists =).
 
+Following the [culdesac.is process](https://coggle.it/diagram/54221b1fce4f4391090025e3/dee2224d6c3b8a1c04f9c442e154f9555a3f695c0716fb6c4770f997d7270a9c)
+
 ##User Case
 #####Primary Use Cases:  
  1. Hayley wants to share a link with Cameron immediately.
@@ -43,6 +45,10 @@ I think primary use case 3 still havent been fully covered.  The links we are sh
 are not meant to be collaborated on or bother the user.  It's my own personal product hunt or
 reddit list that should be seen when the sharee has time.
 
+##User's (to be worked on)
+Male 20 year old programmer.
+Female 20 year old receptionist.  
+
 ##User Questions  
 ####Goals:  
 Find out if people are sharing links with friends and if they are receiving links from friends?  
@@ -67,3 +73,5 @@ How do they share?
 
 Would they like to receive 10 links in realtime, hourly, or at the end of the day?  
 -The majority would like to receive one email at the end of the day.
+
+##
