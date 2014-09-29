@@ -1,0 +1,45 @@
+source 'https://rubygems.org'
+
+ruby '2.1.1'
+gem 'rails', '4.1.6'
+
+#asset group
+gem 'sass-rails', '~> 4.0.3'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'jquery-rails', '~> 3.1.1'
+
+#erb easier
+gem 'haml', '~> 4.0.5'
+
+group :development, :test do
+  #console amazingness
+  gem 'jazz_hands'
+  #error amazingness
+  gem 'better_errors'
+  #simple server
+  gem 'thin'
+  #lets open mail in browser rather than send it
+  gem 'letter_opener'
+  #server stop telling about my files
+  gem 'quiet_assets'
+  #load my app in the background
+  gem 'spring'
+  #local database
+  gem 'sqlite3'
+  #testing framework
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
+group :production do
+  #heroku likes to do things their way
+  gem 'rails_12factor'
+  #PG is the joint
+  gem 'pg'
+end
+
+
+
+#App specific gems
+#tagging for bookmarks/urls
+gem 'acts-as-taggable-on'
