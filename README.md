@@ -8,7 +8,7 @@ Following the [culdesac.is process](https://coggle.it/diagram/54221b1fce4f439109
 ##User Case
 #####Primary Use Cases:  
  1. Hayley wants to share a link with Cameron immediately.
- 2. Lauren wants to share a collection of links she created for things to do in NYC with her AirBNB tenants.
+ 2. Lauren wants to share a collection of links she created for things to do in NYC with her AirBNB tenants (Already Exists).
  3. Cameron finds multiple links each day for Hayley but doesn't want to annoy Hayley with 5 different emails/notifications.
 
 #####Secondary User Cases:
@@ -75,12 +75,20 @@ Would they like to receive 10 links in realtime, hourly, or at the end of the da
 -The majority would like to receive one email at the end of the day.
 
 ##Scenario Mapping
-Cameron-
-  I'm on a site and want to share it with hayley now through email
-  I found site and I dont want to bother hayley but I do want to send it to her
+####Cameron-
+  I'm on a site and want to share it with hayley now through email  
+  I found site and I dont want to bother hayley but I do want to send it to her  
 
-Hayley-
-  Wants to see camerons sites in an email with a little bit of info about each site
-  I want to control how often and when I see them
+####Hayley-
+  Wants to see camerons sites in an email with a little bit of info about each site  
+  I want to control how often and when I see them  
 
 ##Feature Mapping
+  See the feature map [here](https://coggle.it/diagram/54296ed4dc7a0cb9090026b4/74c6a46ee62904ee874dbed5d24de92e953a103b5c3d2107f9a173f3aceb004e)  
+
+##Wireframe
+  ####Chrome Extension
+  ![Chrome Extension](/path/to/img.jpg)
+
+  ####Email Sent
+  ![Email Extension](/path/to/img.jpg)
