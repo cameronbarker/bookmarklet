@@ -13,7 +13,13 @@
                 width: 420px;
             }
             input#save {
-                font-weight: bold; width: auto;
+                font-weight: bold; width: 100%;
+            }
+            label{
+              font-weight: bold;
+            }
+            #logo{
+              text-align:center;
             }
             #main{
               max-width: 390px;
@@ -53,41 +59,58 @@
           <h1>Please Sign In</h1>
         </div> -->
         <div id="loggedin" class="">
+          <div id="logo">
+            Bookmarklet
+          </div>
           <form id="addbookmark">
 
-              <div id="main"><img src='' id="main_image"></div>
-              <ul id="secondary_images" class="inline"></ul>
+              <!-- <div id="main"><img src='' id="main_image"></div> -->
+              <!-- <ul id="secondary_images" class="inline"></ul> -->
 
-              <p><label for="groups">Group</label><br />
+              <!-- <p><label for="groups">Group</label><br />
               <select id="groups"></select>
 
               <hr />
               <p><label for="groups">New Group</label><br />
               <input type="text" id="newGroup" name="newGroup" size="50" value="" />
               <input type="radio" name="newGroupPrivate" class="newGroupLocked" value="true">Private</p>
-              <hr />
+              <hr /> -->
 
 
 
               <p><label for="sendto">Send To</label><br />
               <input type="text" id="sendto" name="sendto" value="" placeholder="seperate emails by commas" /></p>
 
+              <p><label for="sendwhen">When to send</label><br />
+                <input type="radio" name="newGroupPrivate" class="inline" value="true">Private
+                <input type="radio" name="newGroupPrivate" class="inline" value="true">Private
+              </p>
+
+
               <p><label for="title">Title</label><br />
               <input type="text" id="title" name="title" size="50" value="" /></p>
 
-              <p><label for="url">Url</label><br />
-              <input type="text" id="url" name="url" size="50" value="" /></p>
+              <p><label for="sendwhen">Description</label><br />
+                <input type="radio" name="newGroupPrivate2" class="inline" value="true">Useful- Things that make go huh.
+                <input type="radio" name="newGroupPrivate2" class="inline" value="true">Smart-
+                <input type="radio" name="newGroupPrivate2" class="inline" value="true">Funny-
+                <input type="radio" name="newGroupPrivate2" class="inline other" value="true">Other
+                <textarea>Test</textarea>
+              </p>
 
-              <p><label for="note">Note</label><br />
-              <textarea id="note" name="note" rows="3" cols="35"></textarea></p>
+              <!-- <p><label for="url">Url</label><br />
+              <input type="text" id="url" name="url" size="50" value="" /></p> -->
 
-              <p><label for="tags">Tags</label><br />
-              <input type="text" id="tags" name="tags" size="50" value="" /></p>
+              <!-- <p><label for="note">Note</label><br />
+              <textarea id="note" name="note" rows="3" cols="35"></textarea></p> -->
+
+              <!-- <p><label for="tags">Tags</label><br />
+              <input type="text" id="tags" name="tags" size="50" value="" /></p> -->
 
               <p>
-                  <input id="save" type="submit" value="Share/Save Bookmark" />
-                  <input id="save" type="submit" value="Share/Save Quote" />
-                  <input id="save" type="submit" value="Share/Save Image" />
+                  <input id="save" type="submit" value="Share" />
+                  <!-- <input id="save" type="submit" value="Share/Save Quote" />
+                  <input id="save" type="submit" value="Share/Save Image" /> -->
                   <span id="status-display"></span>
               </p>
 

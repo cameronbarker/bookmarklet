@@ -44,6 +44,8 @@ group :development, :test do
   gem 'spring'
   #local database
   gem 'sqlite3'
+  #testing framework
+  gem 'rspec-rails', '~> 3.0.0'
 end
 
 group :production do

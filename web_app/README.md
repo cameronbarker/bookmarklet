@@ -1,4 +1,7 @@
 # Bookmarklet-Web App
+##Todo
+-refactor
+-add tests
 
 ##Site Map V1:
 

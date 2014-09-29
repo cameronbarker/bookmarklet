@@ -177,6 +177,14 @@ window.addEventListener('load', function(evt) {
       $('#login').show();
     }
 
+    $('textarea').on( "click", function() {
+      $('.other').prop('checked', true);
+    });
+
+    $('.other').on( "click", function() {
+      $('textarea').focus();
+    });
+
 
     // Call the getPageInfo function in the background page, injecting content_script.js
     // into the current HTML page and passing in our onPageInfo function as the callback

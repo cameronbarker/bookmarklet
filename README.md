@@ -45,7 +45,7 @@ I think primary use case 3 still havent been fully covered.  The links we are sh
 are not meant to be collaborated on or bother the user.  It's my own personal product hunt or
 reddit list that should be seen when the sharee has time.
 
-##User's (to be worked on)
+##User's (to be worked ona)
 Male 20 year old programmer.
 Female 20 year old receptionist.  
 
@@ -74,4 +74,13 @@ How do they share?
 Would they like to receive 10 links in realtime, hourly, or at the end of the day?  
 -The majority would like to receive one email at the end of the day.
 
-##
+##Scenario Mapping
+Cameron-
+  I'm on a site and want to share it with hayley now through email
+  I found site and I dont want to bother hayley but I do want to send it to her
+
+Hayley-
+  Wants to see camerons sites in an email with a little bit of info about each site
+  I want to control how often and when I see them
+
+##Feature Mapping
