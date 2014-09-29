@@ -87,8 +87,8 @@ Would they like to receive 10 links in realtime, hourly, or at the end of the da
   See the feature map [here](https://coggle.it/diagram/54296ed4dc7a0cb9090026b4/74c6a46ee62904ee874dbed5d24de92e953a103b5c3d2107f9a173f3aceb004e)  
 
 ##Wireframe
-  ####Chrome Extension
-  ![Chrome Extension](/path/to/img.jpg)
+####Chrome Extension  
+![Chrome Extension](https://raw.githubusercontent.com/cameronbarker/bookmarklet/master/_assets/wireframe/Chrome_Ext_Wireframe.jpg)
 
-  ####Email Sent
-  ![Email Extension](/path/to/img.jpg)
+####Email Sent  
+![Email Extension](https://raw.githubusercontent.com/cameronbarker/bookmarklet/master/_assets/wireframe/Email_Wireframe.jpg)
