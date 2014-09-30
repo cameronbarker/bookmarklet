@@ -95,9 +95,10 @@ Would they like to receive 10 links in realtime, hourly, or at the end of the da
 
 ##Prototype
 
-#### v1-1 Prototype
+#### Prototype v1:
 See prototype [here](http://culdesac.is/prototype/bookmarklet).
-####Ideas for v1-2  
+#### Prototype v1-update-1
+#####Ideas  
 - We've added the from section as we don't plan to create a user account
 - We pushed the first two sections labels inline.  
 
