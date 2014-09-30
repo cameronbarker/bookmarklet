@@ -94,5 +94,6 @@ Would they like to receive 10 links in realtime, hourly, or at the end of the da
 ![Email Extension](https://raw.githubusercontent.com/cameronbarker/bookmarklet/master/_assets/wireframe/Email_Wireframe.jpg)
 
 ##Prototype
-[v1-1 Prototype](http://culdesac.is/prototype/bookmarklet)
+[v1-1 Prototype](http://culdesac.is/prototype/bookmarklet)  
+We've added the from section as we don't plan to create a user account, and we pushed the first two sections labels inline.  
 ![Email Extension](https://raw.githubusercontent.com/cameronbarker/bookmarklet/master/_assets/wireframe/Prototype-Chrome-v2.jpg)
