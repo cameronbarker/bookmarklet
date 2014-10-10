@@ -17,13 +17,6 @@ Following the [culdesac.is process](https://coggle.it/diagram/54221b1fce4f439109
  3. Alex wants to search for cool sites for "Furniture Design"
  4. Cameron wants to see visual previews of what the sites look like
 
-
-<!-- ##Language:  
--Bookmark: A collection of URL, Group, Users, Notes, etc  
--Group: A collection of urls under one folder system  
--Url: A url that links to a website  
--User: A person who has an account with link app to store/share links   -->
-
 ##Competitor Analysis
 [Dart](http://tossdarts.com/)  Share and comment on links with in the dart community  
 [Potluck](https://www.potluck.it/)  Out of business  
@@ -103,3 +96,11 @@ See prototype [here](http://culdesac.is/prototype/bookmarklet).
 - We pushed the first two sections labels inline.  
 
 ![Email Extension](https://raw.githubusercontent.com/cameronbarker/bookmarklet/master/_assets/wireframe/Prototype-Chrome-v2.jpg)
+
+
+##Resources:
+####Language:  
+-Bookmark: A collection of URL, Group, Users, Notes, etc  
+-Group: A collection of urls under one folder system  
+-Url: A url that links to a website  
+-User: A person who has an account with link app to store/share links  
