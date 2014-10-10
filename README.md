@@ -5,10 +5,10 @@ Think Pinterest meets Evernote meets something else that already exists =).
 
 Following the [culdesac.is process](https://coggle.it/diagram/54221b1fce4f4391090025e3/dee2224d6c3b8a1c04f9c442e154f9555a3f695c0716fb6c4770f997d7270a9c)
 
-##User Case
+##Goals based on scenarios
 #####Primary Use Cases:  
  1. Hayley wants to share a link with Cameron immediately.
- 2. Lauren wants to share a collection of links she created for things to do in NYC with her AirBNB tenants (Already Exists).
+ 2. Lauren wants to share a collection of links she created for things to do in NYC with her AirBNB tenants (already exists no beed to build).
  3. Cameron finds multiple links each day for Hayley but doesn't want to annoy Hayley with 5 different emails/notifications.
 
 #####Secondary User Cases:
