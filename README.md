@@ -18,11 +18,11 @@ Following the [culdesac.is process](https://coggle.it/diagram/54221b1fce4f439109
  4. Cameron wants to see visual previews of what the sites look like
 
 
-##Language:  
+<!-- ##Language:  
 -Bookmark: A collection of URL, Group, Users, Notes, etc  
 -Group: A collection of urls under one folder system  
 -Url: A url that links to a website  
--User: A person who has an account with link app to store/share links  
+-User: A person who has an account with link app to store/share links   -->
 
 ##Competitor Analysis
 [Dart](http://tossdarts.com/)  Share and comment on links with in the dart community  
