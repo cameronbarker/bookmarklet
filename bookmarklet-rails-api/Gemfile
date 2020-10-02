@@ -10,7 +10,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails', '~> 3.1.1'
 
 #erb easier
-gem 'haml', '~> 4.0.5'
+gem 'haml', '~> 5.0.0'
 
 group :development, :test do
   #console amazingness

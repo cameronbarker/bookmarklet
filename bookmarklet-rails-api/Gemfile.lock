@@ -67,7 +67,8 @@ GEM
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
-    haml (4.0.5)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     hike (1.2.3)
     hirb (0.7.2)
@@ -182,6 +183,7 @@ GEM
       activesupport (>= 3.0)
       sprockets (~> 2.8)
     sqlite3 (1.3.9)
+    temple (0.8.2)
     thin (1.6.2)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -204,7 +206,7 @@ DEPENDENCIES
   acts-as-taggable-on
   better_errors
   coffee-rails (~> 4.0.0)
-  haml (~> 4.0.5)
+  haml (~> 5.0.0)
   jazz_hands
   jquery-rails (~> 3.1.1)
   letter_opener
