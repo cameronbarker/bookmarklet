@@ -1,7 +1,7 @@
 {
    "data": [
-      [1, "Cats Go Here"],
-      [2, "Dogs Go Here"],
-      [3, "Crabs Go Here"],
+      {"id": 1, "name": "Cats Go Here", "updated_at": ""},
+      {"id": 2, "name": "Dogs Go Here", "updated_at": ""},
+      {"id": 3, "name": "Crabs Go Here", "updated_at": ""},
    ]
 }
